@@ -17,6 +17,7 @@ const Loader = () => {
             console.log("done");
             setTimeout(() => {
                 console.log("done 2");
+
                 preloader.style.opacity = 0;
             }, 3000);
         }
