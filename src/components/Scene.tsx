@@ -81,8 +81,8 @@ type GLTFResult = GLTF & {
   }
 }
 
-type ActionName = 'TakeOff / Flying'
-type GLTFActions = Record<ActionName, THREE.AnimationAction>
+// type ActionName = 'TakeOff / Flying'
+// type GLTFActions = Record<ActionName, THREE.AnimationAction>
 
 export default function Model(props: JSX.IntrinsicElements['group']) {
   const group = useRef()
@@ -90,7 +90,7 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
   const { actions, names } = useAnimations(animations, group)
   useEffect(() => {
     actions[names[0]]?.reset().fadeIn(0.3).play()
-  }, []);
+  });
 
   return (
     <group ref={group} {...props} dispose={null}>

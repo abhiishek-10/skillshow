@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react'
 import "./main.css"
-import loading from '../lotties/loading.json';
+// import loading from '../lotties/loading.json';
 
 const Loader = () => {
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: loading,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-        }
-    };
+    // const defaultOptions = {
+    //     loop: true,
+    //     autoplay: true,
+    //     animationData: loading,
+    //     rendererSettings: {
+    //         preserveAspectRatio: "xMidYMid slice"
+    //     }
+    // };
     useEffect(() => {
         window.onload = () => {
             const preloader = document.querySelector(".preloader");

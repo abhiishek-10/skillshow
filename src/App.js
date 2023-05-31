@@ -4,7 +4,7 @@ import Who from "./components/Who"
 import Works from "./components/Works"
 import Showcase from "./components/Showcase"
 import Contact from "./components/Contact"
-import Loader from "./components/Loader"
+// import Loader from "./components/Loader"
 
 
 const Container = styled.div`

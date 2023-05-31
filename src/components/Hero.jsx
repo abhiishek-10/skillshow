@@ -5,21 +5,7 @@ import { Canvas } from '@react-three/fiber'
 import { Float, MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
 import "./main.css"
 
-const Section = styled.div`
-height: 100vh;
-scroll-snap-align:center;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-`
-const Container = styled.div`
-height: 100vh;
-scroll-snap-align:center;
-width: 1400px;
-display: flex;
-justify-content: space-between;
-`
+
 const Left = styled.div`
 flex: 2;
 display: flex;

@@ -50,9 +50,9 @@ const Navbar = () => {
 
       <div className="nav-main">
         <Links>
-          <a href="#">
+          <button >
             <Logo src="./img/logo.png" />
-          </a>
+          </button>
           <List>
             <ListItem>Home</ListItem>
             <ListItem>Studio</ListItem>

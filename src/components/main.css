@@ -74,6 +74,11 @@ img{
     align-items: center;
     padding: 10px 0;
 }
+.nav-main button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
 
 /*=============================================
 =            Hero main            =
@@ -224,7 +229,9 @@ img{
     margin-top: 20px;
     transition-duration: 0.5s;
 }
-.shot-btn a{
+.shot-btn button{
+    cursor: pointer;
+    border: none;
     color: #fff;
     text-decoration: none;
     background: rgb(218, 78, 162);
@@ -234,7 +241,7 @@ img{
     border-radius: 8px;
     transition-duration: 0.5s;
 }
-.shot-btn:hover a{
+.shot-btn:hover button{
     transform: scale(0.9);
 }
 

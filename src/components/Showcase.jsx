@@ -1,6 +1,6 @@
-import { ContactShadows, Environment, OrbitControls, useCubeTexture } from '@react-three/drei'
-import { Canvas, useFrame, useThree } from '@react-three/fiber'
-import React, { useEffect, useRef } from 'react'
+import { ContactShadows, Environment, OrbitControls } from '@react-three/drei'
+import { Canvas, useThree } from '@react-three/fiber'
+import React from 'react'
 import styled from 'styled-components'
 // import Aircraft from './Aircraft'
 import Scene from "./Scene.tsx"
@@ -24,9 +24,7 @@ function Controls() {
 }
 
 function ThreeScene() {
-    const texture = useCubeTexture(
-        ["px.png", "nx.png", "py.png", "ny.png", "pz.png", "nz.png",], { path: "Standard-Cube-Map/" }
-    )
+
 
 
     return (
